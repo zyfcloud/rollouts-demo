@@ -21,6 +21,9 @@ spec:
         - name: http
           containerPort: 8080
           protocol: TCP
+        - name: http1
+          containerPort: 8081
+          protocol: TCP
         resources:
           requests:
             memory: 32Mi
